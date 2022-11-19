@@ -18,6 +18,13 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+<<<<<<< HEAD
     path('',include('applications.estado.urls')),
     path('',include('applications.tarea.urls')),
 ]
+=======
+    path('',include('applications.paciente')),
+    path('',include('applications.medico')),
+    path('',include('applications.medicamentos')),
+]
+>>>>>>> 88d8abe (second commit)

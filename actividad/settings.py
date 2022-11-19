@@ -37,8 +37,14 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+<<<<<<< HEAD
     'applications.estado',
     'applications.tarea',
+=======
+    'applications.paciente',
+    'applications.medico',
+    'applications.medicamentos',
+>>>>>>> 88d8abe (second commit)
     
 ]
 
